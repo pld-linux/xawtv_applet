@@ -25,9 +25,9 @@ gnome-panel.
 %build
 rm -f missing
 aclocal -I macros
-autoconf
-automake -a -c -f
-autoconf
+%{__autoconf}
+%{__automake}
+%{__autoconf}
 %configure
 %{__make}
 
