@@ -1,4 +1,5 @@
 Summary:	xawtv gnome-panel aplet
+Summary(pl):	Aplet panelu GNOME xawtv
 Name:		xawtv_applet
 Version:	0.9.13
 Release:	1
@@ -19,6 +20,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 xawtv_applet is a remote control for xawtv that runs inside the
 gnome-panel.
 
+%description -l pl
+xawtv_applet to pilot dla xawtv dzia³aj±cy wewn±trz panelu GNOME.
+
 %prep
 %setup -q
 
@@ -38,8 +42,6 @@ rm -rf $RPM_BUILD_ROOT
 	DESTDIR=$RPM_BUILD_ROOT \
 	pixmapdir=%{_pixmapsdir}
 
-gzip -9nf AUTHORS ChangeLog NEWS README THANKS
-
 %find_lang %{name} --with-gnome
 
 %clean
@@ -47,7 +49,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files -f %{name}.lang
 %defattr(644,root,root,755)
-%doc *.gz
+%doc AUTHORS ChangeLog NEWS README THANKS
 %attr(755,root,root) %{_bindir}/xawtv_applet
 %{_sysconfdir}/CORBA/servers/xawtv_applet.gnorba
 %{_datadir}/applets/Multimedia/*
