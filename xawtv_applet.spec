@@ -6,6 +6,7 @@ Release:	1
 License:	GPL v2
 Group:		X11/Applications/Multimedia
 Source0:	http://people.debian.org/~mvo/xawtv_applet/%{name}-%{version}.tar.gz
+# Source0-md5:	30890e275ee8a89638bdc076527e3339
 URL:		http://people.debian.org/~mvo/xawtv_applet/
 BuildRequires:	autoconf
 BuildRequires:	automake
