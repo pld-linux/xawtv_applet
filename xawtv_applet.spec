@@ -28,7 +28,7 @@ xawtv_applet to pilot dla xawtv dzia³aj±cy wewn±trz panelu GNOME.
 
 %build
 rm -f missing
-aclocal -I macros
+%{__aclocal} -I macros
 %{__autoconf}
 %{__automake}
 %{__autoconf}
