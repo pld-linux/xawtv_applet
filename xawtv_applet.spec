@@ -1,5 +1,5 @@
 Summary:	xawtv gnome-panel aplet
-Summary(pl):	Aplet panelu GNOME xawtv
+Summary(pl.UTF-8):   Aplet panelu GNOME xawtv
 Name:		xawtv_applet
 Version:	0.9.13
 Release:	1
@@ -21,8 +21,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 xawtv_applet is a remote control for xawtv that runs inside the
 gnome-panel.
 
-%description -l pl
-xawtv_applet to pilot dla xawtv dzia³aj±cy wewn±trz panelu GNOME.
+%description -l pl.UTF-8
+xawtv_applet to pilot dla xawtv dziaÅ‚ajÄ…cy wewnÄ…trz panelu GNOME.
 
 %prep
 %setup -q
