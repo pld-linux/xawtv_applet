@@ -1,5 +1,5 @@
 Summary:	xawtv gnome-panel aplet
-Summary(pl.UTF-8):   Aplet panelu GNOME xawtv
+Summary(pl.UTF-8):	Aplet panelu GNOME xawtv
 Name:		xawtv_applet
 Version:	0.9.13
 Release:	1
